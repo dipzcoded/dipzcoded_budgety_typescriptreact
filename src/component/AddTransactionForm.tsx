@@ -96,7 +96,7 @@ const AddTransactionForm = () => {
           onClick={onSumbit}
           disabled={!detail || !amount}
         >
-          <i className="ion-ios-checkmark-outline"></i>
+          <i className="bx bx-check-circle"></i>
         </button>
       </div>
     </div>
