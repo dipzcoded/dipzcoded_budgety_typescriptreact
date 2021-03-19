@@ -54,7 +54,7 @@ const TransactionItem: React.FC<PropsType> = ({
         )}
         <div className="item__delete">
           <button className="item__delete--btn" onClick={onDelete}>
-            <i className="ion-ios-close-outline"></i>
+            <i className="bx bx-x-circle"></i>
           </button>
         </div>
       </div>
